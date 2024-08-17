@@ -19,10 +19,10 @@ class MSG:
 <b>💬 @{bot.me.username} ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ</b>
 
 🚀 ꜱɪʟᴀʜᴋᴀɴ ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ 
-• ᴏᴡɴᴇʀ : <a href=tg://openmessage?user_id={OWNER_ID}>𝙑𝘼𝙇𝙇𝙎 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇</a> 
+• ᴏᴡɴᴇʀ : <a href=tg://openmessage?user_id={OWNER_ID}>𝙒𝘼𝙔𝙎𝘿𝙀𝙑 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇</a> 
 
 ʟɪsᴛ ʜᴀʀɢᴀ & ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ :
-<a href='https://t.me/vallsofficial1/4'>ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ</a>
+<a href='https://t.me/StoranKingWaysGanz/38'>ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ</a>
 
 👉🏻 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ</b></blockquote>
 """
@@ -39,7 +39,7 @@ class MSG:
 <b>🗓️ ᴛᴏᴛᴀʟ ʙᴜʟᴀɴ: {bulan}</b> 
 
  🚀 ꜱɪʟᴀʜᴋᴀɴ ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ 
-• ᴏᴡɴᴇʀ : <a href=tg://openmessage?user_id={OWNER_ID}>𝙑𝘼𝙇𝙇𝙎 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇</a> 
+• ᴏᴡɴᴇʀ : <a href=tg://openmessage?user_id={OWNER_ID}>𝙒𝘼𝙔𝙎𝘿𝙀𝙑 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇</a> 
 
 <b>✅ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴋᴏɴꜰɪʀᴍᴀsɪ ᴜɴᴛᴜᴋ ᴋɪʀɪᴍ ʙᴜᴋᴛɪ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ</b></blockquote>
 """
@@ -53,5 +53,5 @@ class MSG:
 
     def POLICY():
         return """
-ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀꜱᴀʟᴀʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇ ᴏᴡɴᴇʀ ꜱᴀʏᴀ ! @VALLS_OFFICIAL
+ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀꜱᴀʟᴀʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇ ᴏᴡɴᴇʀ ꜱᴀʏᴀ ! @THEKINGWAYSGANZ
 """
