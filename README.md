@@ -27,7 +27,6 @@ pip3 install -r requirements.txt
 cp sample.env .env
 ```
 ```
-nano .env
 ```
 ```
 python3 -m PyroUbot
