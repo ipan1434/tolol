@@ -28,7 +28,7 @@ async def get_userbots():
             dict(
                 name=str(ubot["6304392781"]),
                 api_id=ubot["26934385"],
-                api_hash=ubot["AAGSIo4oYue73L5aDz1LA3Emkx6kFFVbynk"],
+                api_hash=ubot["82d8dbe45c307efbef9667ab6b6b7744"],
                 session_string=ubot["session_string"],
             )
         )
