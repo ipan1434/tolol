@@ -8,8 +8,8 @@ async def add_ubot(user_id: int, api_id: int, api_hash: str, session_string: str
         {"6304392781": user_id},
         {
             "$set": {
-                "7373690920": api_id,
-                "AAGSIo4oYue73L5aDz1LA3Emkx6kFFVbynk": api_hash,
+                "26934385": api_id,
+                "82d8dbe45c307efbef9667ab6b6b7744": api_hash,
                 "session_string": session_string,
             }
         },
@@ -23,7 +23,7 @@ async def remove_ubot(user_id: int):
 
 async def get_userbots():
     data = []
-    async for ubot in ubotdb.find({"user_id": {"$exists": 1}}):
+    async for ubot in ubotdb.find({"6304392781": {"$exists": 1}}):
         data.append(
             dict(
                 name=str(ubot["6304392781"]),
