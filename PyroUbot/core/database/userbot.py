@@ -5,11 +5,11 @@ ubotdb = mongodb.ubot
 
 async def add_ubot(user_id: int, api_id: int, api_hash: str, session_string: str):
     return await ubotdb.update_one(
-        {"6351713865": user_id},
+        {"7289533914": user_id},
         {
             "$set": {
-                "26934385": api_id,
-                "82d8dbe45c307efbef9667ab6b6b7744": api_hash,
+                "27299185": api_id,
+                "5664aaf969ce1fadf09cdffbf39c73b1": api_hash,
                 "session_string": session_string,
             }
         },
@@ -26,9 +26,9 @@ async def get_userbots():
     async for ubot in ubotdb.find({"6304392781": {"$exists": 1}}):
         data.append(
             dict(
-                name=str(ubot["6351713865"]),
-                api_id=ubot["26934385"],
-                api_hash=ubot["82d8dbe45c307efbef9667ab6b6b7744"],
+                name=str(ubot["7289533914"]),
+                api_id=ubot["27299185"],
+                api_hash=ubot["5664aaf969ce1fadf09cdffbf39c73b1"],
                 session_string=ubot["session_string"],
             )
         )
