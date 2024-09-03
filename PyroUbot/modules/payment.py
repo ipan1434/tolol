@@ -23,7 +23,7 @@ async def _(client, callback_query):
             f"""
 <blockquote><b>ꜱɪʟᴀʜᴋᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴛᴇʀʟᴇʙɪʜ ᴛᴀʜᴜʟᴜ ᴋᴇ Qʀɪꜱ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ</b>           
 
-Qʀɪꜱ : tanya owner vallss
+Qʀɪꜱ : tanya owner ᴋɪɴɢᴡᴀʏꜱɢᴀɴᴢʙᴏᴛᴢ
 
 <b>💬 sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ ʙᴜᴋᴛɪ sᴄʀᴇᴇɴsʜᴏᴛ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ: {full_name}</b></blockquote>
 """,
