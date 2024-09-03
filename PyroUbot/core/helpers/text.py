@@ -22,7 +22,7 @@ class MSG:
 • ᴏᴡɴᴇʀ : <a href=tg://openmessage?user_id={OWNER_ID}>𝙒𝘼𝙔𝙎𝘿𝙀𝙑 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇</a> 
 
 ʟɪsᴛ ʜᴀʀɢᴀ & ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ :
-<a href='https://t.me/StoranKingWaysGanz/38'>ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ</a>
+<a href='https://t.me/testikingsss/203'>ᴋᴇʙᴜᴛᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ</a>
 
 👉🏻 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ</b></blockquote>
 """
@@ -53,5 +53,5 @@ class MSG:
 
     def POLICY():
         return """
-ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀꜱᴀʟᴀʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇ ᴏᴡɴᴇʀ ꜱᴀʏᴀ ! @THEKINGWAYSGANZ
+ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀꜱᴀʟᴀʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇ ᴏᴡɴᴇʀ ꜱᴀʏᴀ ! @KingSoloUser
 """
