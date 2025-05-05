@@ -153,7 +153,7 @@ async def user_help(client, message):
 @PY.INLINE("^user_help")
 async def user_help_inline(client, inline_query):
     SH = await ubot.get_prefix(inline_query.from_user.id)
-    msg = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a>\n  ᴘʀᴇꜰɪx: {' '.join(SH)}</b></blockquote>"
+    msg = f"<blockquote><b>❀ ᴍᴇɴᴜ ᴇᴍᴀᴋʟᴏ <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a>\n  ᴘʀᴇꜰɪx: {' '.join(SH)}</b></blockquote>"
     results = [InlineQueryResultArticle(
         title="Help Menu!",
         reply_markup=InlineKeyboardMarkup(paginate_modules(0, HELP_COMMANDS, "help")),
@@ -178,15 +178,15 @@ async def help_callback(client, callback_query):
     tutup_match = re.match(r"help_tutup\((.+?)\)", callback_query.data)
     back_match = re.match(r"help_back", callback_query.data)
     SH = await ubot.get_prefix(callback_query.from_user.id)
-    top_text = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>\n  ᴘʀᴇꜰɪx: {' '.join(SH)}</b></blockquote>"
+    top_text = f"<blockquote><b>❀ ᴍᴇɴᴜ ᴇᴍᴀᴋʟᴏ <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>\n  ᴘʀᴇꜰɪx: {' '.join(SH)}</b></blockquote>"
 
     if mod_match:
         module = (mod_match.group(1)).replace(" ", "_")
         text = HELP_COMMANDS[module].__HELP__.format(next((p) for p in SH))
-        button = [[InlineKeyboardButton("⊲ ʙᴀᴄᴋ", callback_data="help_back")]]
+        button = [[InlineKeyboardButton("⦪ ʙᴀᴄᴋ", callback_data="help_back")]]
         await callback_query.edit_message_text(
             text=text 
-            + '\n<blockquote><b>ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ ᴅᴇᴠ -<a href="tg://user?id=6845234638"> ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ</a> </b></blockquote>',
+            + '\n<blockquote><b>❀ 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘽𝙮 @XwyWays✅ -<a href="tg://user?id=5082955178">⦪ ᴡᴀʏꜱᴍᴏᴅᴢᴢ</a> </b></blockquote>',
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
