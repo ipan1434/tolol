@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 
-app = Client("userbot")  # atau sesuai session kamu
+app = Client("emojiprem")  # atau sesuai session kamu
 
 @app.on_message(filters.me & filters.text)
 async def get_emoji_id(client, message):
