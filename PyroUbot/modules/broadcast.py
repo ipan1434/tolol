@@ -84,7 +84,7 @@ ubot : {bot.me.mention}</blockquote>
 """
             else:
                 text = f"""
-<blockquote>status akun : beli prem dulu ya
+<blockquote>status akun : beli prem dulu ya ke @XwyWayd
 limit check : akun anda bermasalah
 ubot : {bot.me.mention}</blockquote>
 """
@@ -147,6 +147,7 @@ async def gcast_handler(client, message):
     gcast_progress.remove(client.me.id)
     await gcs.delete()
     _gcs = f"""
+<blockquote><b>ᣃ࿈ ᴜꜱᴇʀʙᴏᴛ ʙʏ @XwyWays ᣃ࿈</b>
 <blockquote><b>{bcs}ʙʀᴏᴀᴅᴄᴀsᴛ ᴛᴇʀᴋɪʀɪᴍ</b></blockquote>
 <blockquote><b>{sks}ʙᴇʀʜᴀsɪʟ : {done} ᴄʜᴀᴛ</b>
 <b>{ggl}ɢᴀɢᴀʟ : {failed} ᴄʜᴀᴛ</b>
@@ -319,7 +320,7 @@ async def _(client, message):
     blacklist = await get_list_from_vars(client.me.id, "BL_ID")
     total_blacklist = len(blacklist)
 
-    list = f"{brhsl} daftar blackliꜱt\n"
+    list = f"{brhsl} daftar blackliꜱt🤖\n"
 
     for chat_id in blacklist:
         try:
